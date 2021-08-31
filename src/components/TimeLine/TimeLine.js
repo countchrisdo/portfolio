@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         <p>
-          I am a mostly self-taught programmer, with a General Assembly Cpding Bootcamp Certification in Software Engineering and I have a passion for learning new technologies and languages.
+          I am a mostly self-taught programmer, with a General Assembly Coding Bootcamp Certification in Software Engineering and I have a passion for learning new technologies and languages.
           I am currently learning <a href="https://www.freecodecamp.org/">freeCodeCamp</a> to become an even better full-stack developer.
         </p>
       </SectionText>
