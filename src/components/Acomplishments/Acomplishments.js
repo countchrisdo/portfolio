@@ -8,7 +8,7 @@ const data = [
   { number: 11, text: 'Github Followers', },
   { number: 24, text: 'Github Stars', },
   { number: 16, text: 'Contributions to Open Source Projects', },
-  { number: 3, text: 'Hackathons attended', },
+  { number: 2, text: 'Hackathons attended', },
   { number: 2, text: 'Gamejams Attended', },
 ];
 

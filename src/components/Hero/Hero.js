@@ -18,13 +18,13 @@ const Hero = (props) => (
             beautiful, functional, and responsive websites.
           </p>
           <p>
-            I have a background in online content creation and social media marketing as well.
+            I have a background in online content creation and social media marketing.
           </p>
           <p>
             I am currently looking for a full-time position as a software engineer or web developer.
           </p>
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => window.location = "https://github.com/countchrisdo"}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
