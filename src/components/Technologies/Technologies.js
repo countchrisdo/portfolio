@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiHtml5, DiJavascript1, DiFirebase, DiReact, DiZend, DiNodejsSmall, DiPhotoshop, DiGithubBadge, DiLinux, DiMysql, DiVisualstudio } from 'react-icons/di';
+import { DiHtml5, DiJavascript1, DiFirebase, DiReact, DiNodejsSmall, DiGithubBadge, DiLinux, DiMysql, DiVisualstudio } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,9 +8,9 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To responsive front-end designs
-      
+      I've worked with a range a technologies in the development world.
+      From Back-end tools to responsive front-end framworks.
+
     </SectionText>
     <List>
       <ListItem>
