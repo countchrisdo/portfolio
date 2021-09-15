@@ -9,7 +9,7 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Text before calling please</LinkTitle>
+          <LinkTitle>Give notice before calling</LinkTitle>
           <LinkItem href="tel:714-483-8837">714-483-8837</LinkItem>
         </LinkColumn>
         <LinkColumn>
@@ -22,7 +22,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-                        Chris Burwell is a Full-Stack Web Developer based in the greater DC / Maryland / Virginia Area.
+                        Chris Burwell is a Full-Stack Developer based in the greater DC / Maryland / Virginia Area.
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

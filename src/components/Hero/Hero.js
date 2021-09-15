@@ -14,8 +14,8 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
           <p>
-            I am a full stack web developer with a passion for creating
-            beautiful, functional, and responsive websites.
+            I am a developer with a passion for creating
+            beautiful, functional, and responsive products.
           </p>
           <p>
             I have a background in online content creation and social media marketing.
@@ -24,7 +24,7 @@ const Hero = (props) => (
             I am currently looking for a full-time position as a software engineer or web developer.
           </p>
         </SectionText>
-        <Button onClick={() => window.location = "https://github.com/countchrisdo"}>Learn More</Button>
+        <Button onClick={() => window.location = "https://github.com/countchrisdo"}>See More</Button>
       </LeftSection>
     </Section>
   </>
