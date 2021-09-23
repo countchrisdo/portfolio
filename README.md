@@ -33,7 +33,8 @@
 
 ![Screen Shot](https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png)
 -screenshot tba-
--about the project tba-
+
+A SPA built with React.js and deployed to Heroku to showcase my developer story, projects and skills.
 
 ## Built With
 
