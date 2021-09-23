@@ -37,6 +37,9 @@
 
 ## Built With
 
+- HTML
+- CSS
+- JavaScript
 - React
 
 ## Acknowledgements
