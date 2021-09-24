@@ -31,10 +31,9 @@
 
 ## About The Project
 
-![Screen Shot](https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png)
--screenshot tba-
+![Screen Shot](public/images/port.png)
 
-A SPA built with React.js and deployed to Heroku to showcase my developer story, projects and skills.
+A SPA built with React & Next.js and deployed to Hostinger to showcase my developer story, projects and skills.
 
 ## Built With
 
@@ -45,6 +44,5 @@ A SPA built with React.js and deployed to Heroku to showcase my developer story,
 
 ## Acknowledgements
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+* [Javascript Mastery](https://javascriptmastery.eo.page/)
+
