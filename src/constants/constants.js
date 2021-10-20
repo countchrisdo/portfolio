@@ -13,8 +13,8 @@ export const projects = [
     description:"An Express Web Application where you can share video game screenshots and in-game photography. ",
     image: '/images/gamegram.png',
     tags: ['Express', 'MongoDB', 'OAuth Authentication'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/countchrisdo/GameGram',
+    visit: 'https://gamegram.herokuapp.com/',
     id: 1,
   },
   {
@@ -39,8 +39,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2016, text: 'Graduated High School - Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  // { year: 2019, text: 'Founded JavaScript Mastery', },
+  { year: 2018, text: 'Started work as a freelance developer', },
+  // { year: 2019, text: 'blank', },
   { year: 2020, text: 'Began indie game development using GML', },
   { year: 2021, text: 'Graduated from the General Assembly Software Engineering Bootcamp', },
 ];
