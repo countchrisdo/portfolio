@@ -42,6 +42,13 @@ A SPA built with React & Next.js and deployed to Hostinger to showcase my develo
 - JavaScript
 - React
 
+## Planned Features
+
+- [ ] Use GitHub API to automatically fetch my information
+- [ ] Create custom Favicon
+- [ ] Create custom 404 page
+
+
 ## Acknowledgements
 
 * [Javascript Mastery](https://javascriptmastery.eo.page/)
