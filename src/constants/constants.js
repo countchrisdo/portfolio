@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Wheres The Party App',
-    description: "WTPA is a Web Application where you can view all the events that are happening in your city and around the world!",
+    description: "WTPA is a Web Application where you can view all the events that are happening in your city and around the world! View the Location using the Google Maps API",
       image: '/images/wtpa.png',
       tags: ['Django', 'Amazon Web Services (AWS)', 'Postgresql'],
     source: 'https://github.com/countchrisdo/wheresthepartyapp',
@@ -31,7 +31,7 @@ export const projects = [
     description: "Website for Encompass Supply, a electrical supply company based in Virginia. Offering immediate access to over a million construction, electrical and industrial supplies throughout the Eastern United States through the Grainger Distributor Alliance Program.",
     image: '/images/ES.png',
     tags: ['Wordpress', ' jquery', 'modernizr'],
-    source: 'view-source:https://encompasssupply.com/',
+    source: 'https://encompasssupply.com/',
     visit: 'https://encompasssupply.com/',
     id: 3,
   },
