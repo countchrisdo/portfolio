@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Idea Spark',
     description: "A Full Stack MERN Application called Idea Spark. It is a simple social media app that allows users to view and share their ideas with the world! Create a board full of images to invoke your ideas and stir your creativity.",
-      image: '/images/idspark.jpg',
+      image: '/images/idspark.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/countchrisdo/idea-spark',
     visit: 'https://ideaspark.herokuapp.com/',
@@ -19,9 +19,9 @@ export const projects = [
   },
   {
     title: 'Wheres The Party App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "WTPA is a Web Application where you can view all the events that are happening in your city and around the world!",
       image: '/images/wtpa.png',
-      tags: ['Django', 'Amazon Web Services', 'Postgresql'],
+      tags: ['Django', 'Amazon Web Services (AWS)', 'Postgresql'],
     source: 'https://github.com/countchrisdo/wheresthepartyapp',
     visit: 'https://wheresthepartyapp.herokuapp.com/',
     id: 2,

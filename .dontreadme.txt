@@ -3,4 +3,4 @@ npm run dev
 
 To host:
 yarn build (or something similar)
-upload package to hosting website
+upload package to hosting website hostinger.com
