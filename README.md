@@ -49,7 +49,6 @@ A SPA built with React & Next.js and deployed to Hostinger to showcase my develo
 - [ ] Create custom 404 page
 - [ ] View up-to-date resume on site more easily
 
-
 ## Acknowledgements
 
 * [Javascript Mastery](https://javascriptmastery.eo.page/)
