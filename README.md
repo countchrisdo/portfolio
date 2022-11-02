@@ -44,8 +44,8 @@ A SPA built with React & Next.js and deployed to Hostinger to showcase my develo
 
 ## Planned Features
 
+- [x] Create custom Favicon
 - [ ] Use GitHub API to automatically fetch my information
-- [ ] Create custom Favicon
 - [ ] Create custom 404 page
 - [ ] View up-to-date resume on site more easily
 
