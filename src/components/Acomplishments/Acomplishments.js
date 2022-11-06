@@ -7,14 +7,14 @@ const data = [
   { number: 30, text: 'Github Projects'},
   { number: 10, text: 'Github Followers', },
   { number: 25, text: 'Github Stars', },
-  { number: 30, text: 'Contributions to Open Source Projects', },
+  { number: 30, text: 'Open Source Contributions', },
   { number: 2, text: 'Hackathons attended', },
   { number: 2, text: 'Gamejams Attended', },
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Achievements</SectionTitle>
+    <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -23,7 +23,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    {/* <SectionDivider/> */}
   </Section>
 );
 

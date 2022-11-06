@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiHtml5, DiJavascript1, DiFirebase, DiReact, DiNodejsSmall, DiGithubBadge, DiLinux, DiMysql, DiVisualstudio } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ImageContainer } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
+
     <SectionText>
       I've worked with a range a technologies in the development world.
       From Back-end tools to responsive front-end framworks.
