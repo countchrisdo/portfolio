@@ -1,6 +1,11 @@
 To run dev server:
 npm run dev
 
+To run built server:
+npm run start
+
+To build:
+npm run build
+
 To host:
-yarn build (or something similar)
-upload package to hosting website hostinger.com
+upload built package to hosting website hostinger.com

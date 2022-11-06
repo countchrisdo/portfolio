@@ -24,7 +24,8 @@ const Hero = (props) => (
             I am currently looking for a full-time position as a software engineer or web developer.
           </p>
         </SectionText>
-        <Button onClick={() => window.location = "https://drive.google.com/file/d/1JSvIv5LzWuUYFqEu6igHOEWkvNNTlI__/view?usp=sharing"}>See More</Button>
+
+      <a href='https://drive.google.com/file/d/1JSvIv5LzWuUYFqEu6igHOEWkvNNTlI__/view' target="_blank"> <Button> Button </Button> </a>
       </LeftSection>
     </Section>
   </>

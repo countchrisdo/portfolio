@@ -44,6 +44,16 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
+export const Div4 = styled.div`
+  display: 'flex';
+  alignItems: 'center';
+  color:"white";
+  font-size: 20px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+`;
 
 // Navigation Links
 export const NavLink = styled.a`
