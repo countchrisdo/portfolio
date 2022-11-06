@@ -16,10 +16,17 @@ import {
 const Header = () => (
 	<Container>
 		<Div1>
-			<Div4>
+			{/* <Div4>
 					<DiCodeBadge size="3rem" />
 					<span>Portfolio</span>
-			</Div4>
+			</Div4> */}
+
+			<Link href="/">
+        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+		<DiCodeBadge size="3rem" /> <span>Portfolio</span>
+        </a>
+      </Link>
+
 		</Div1>
 		<Div2>
 			<li>

@@ -25,7 +25,7 @@ const Hero = (props) => (
           </p>
         </SectionText>
 
-      <a href='https://drive.google.com/file/d/1JSvIv5LzWuUYFqEu6igHOEWkvNNTlI__/view' target="_blank"> <Button> Button </Button> </a>
+      <a href='https://drive.google.com/file/d/1JSvIv5LzWuUYFqEu6igHOEWkvNNTlI__/view' target="_blank"> <Button> Resume </Button> </a>
       </LeftSection>
     </Section>
   </>
