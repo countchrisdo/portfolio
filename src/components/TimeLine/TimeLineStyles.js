@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: ${props => props.theme.colors.background1};
   padding: 0rem;
   list-style:none;
   display: flex;
   justify-content: space-between; 
-  /* overflow-x: hidden; */
+  ${'' /* overflow-x: hidden;  */}
 
   margin-left: 32px;
   &:first-of-type{
@@ -40,7 +40,7 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  background: #0F1624;
+  background: ${props => props.theme.colors.background1};
   border-radius: 3px;
   max-width: 196px;
 
@@ -51,11 +51,11 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: #0E131F;
+    background: ${props => props.theme.colors.background3};
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
-    border-radius: 3px;
+    border-radius: 5px;
     overflow: visible;
     position: relative;
     height: fit-content;
@@ -77,14 +77,14 @@ export const CarouselItemTitle = styled.h4`
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 4px;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 0.5rem;
   }
   
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 `
 export const CarouselItemImg = styled.svg`
@@ -103,52 +103,67 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
-  padding-right: 16px;
+  opacity: 0.8;
+  padding-right: 1.6rem;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 12px;
-    line-height: 18px;
-    padding-right: 32px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding-right: 3.2rem;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 1rem;
+    line-height: 1.6rem;
     padding-right: 0;
   }
 `
 export const CarouselButtons = styled.div`
-  width: 288px;
-
+  width: 28.8rem;
   display: none;
   visibility: hidden;
 
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
-    margin-bottom: 48px;
+    margin-bottom: 5rem;
+    
   }
 `
 
 export const CarouselButton = styled.button`
   box-sizing: border-box;
-  background: none;
-  padding: 4px;
+  background: ${props => props.theme.colors.background1};
+  border: 1px solid ${props => props.theme.colors.accent1};
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border: none;
   cursor: pointer;
-  margin-right: 4px;
+  margin-right: 2rem;
+  margin-top: 1rem;
   opacity: ${(props) => props.active === props.index ? `1` : `.33`};
-  transform: ${(props) => props.active === props.index ? `scale(1.6)` : `scale(1)`};
+  transform: ${(props) => props.active === props.index ? `scale(1.2)` : `scale(1)`};
+  transition: all 0.3s ease-in-out;
 
   &:focus {
     outline: none;
+    outline: 2px solid ${props => props.theme.colors.accent1};
   }
+
+  ${'' /*Issue: The last item in the carousel doesn't light up when active */}
+  ${'' /* This is my quick fix */}
+  &:last-of-type {
+
+    visibility: hidden;
+  }
+
 `
+
 
 export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
-  height: 3px;
+  width: .5rem;
+  height: .5rem;
 `

@@ -44,11 +44,22 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
+export const Div4 = styled.div`
+  display: 'flex';
+  alignItems: 'center';
+  color:"white";
+  font-size: 20px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+`;
 
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
+  margin: 0 1rem;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
@@ -116,7 +127,7 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: ${(props) => props.theme.colors.background2};
     transform: scale(1.2);
     cursor: pointer;
     
