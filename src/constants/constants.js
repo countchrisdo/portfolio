@@ -40,7 +40,6 @@ export const projects = [
 export const TimeLineData = [
   { year: 2016, text: 'Graduated High School - Started my journey', },
   { year: 2018, text: 'Started work as a freelance developer', },
-  // { year: 2019, text: 'blank', },
   { year: 2020, text: 'Began indie game development using GML', },
   { year: 2021, text: 'Graduated from the General Assembly Software Engineering Bootcamp', },
 ];
