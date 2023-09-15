@@ -1,19 +1,15 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/countchrisdo/portfolio">
-    <img src="https://cdn.onlinewebfonts.com/svg/img_65295.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Chris Burwell's Portfolio</h3>
 
   <p align="center">
     Software Engineer / Fullstack Developer 
     <br/>
     <br/>
-    <a href="https://github.com/countchrisdo/portfolio"><strong>Explore »</strong></a>
+    <a href="https://crburwell.com"><strong>Explore »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/countchrisdo/portfolio">View Demo</a>
+    <a href="https://crburwell.com">View Site</a>
     .
     <a href="https://github.com/countchrisdo/portfolio/issues">Report Bug</a>
     .
@@ -27,6 +23,11 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Development Server](#development-server)
+  * [Production Server](#production-server)
+  * [Building](#building)
+  * [Hosting](#hosting)
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
