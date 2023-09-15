@@ -37,10 +37,46 @@ A SPA built with React & Next.js and deployed to Hostinger to showcase my develo
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
 - React
+- Next.js
+- Node.js
+- babel
+
+## Getting Started
+
+### Development Server
+
+Run the development server:
+
+```shell
+npm run dev
+```
+
+The development server, powered by Node.js, offers real-time code changes and hot-reloading for efficient development.
+
+### Production Server
+
+Start the production server:
+
+```shell
+npm run start
+```
+
+The production server is optimized for performance and security in a production environment.
+
+## Building
+
+Build your application:
+
+```shell
+npm run build
+```
+
+This process compiles code, optimizes assets, and prepares your project for deployment.
+
+## Hosting
+
+Upload built package to hosting website [Hostinger](https://www.hostinger.com/).
 
 ## Planned Features
 
